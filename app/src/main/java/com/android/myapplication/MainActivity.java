@@ -39,6 +39,7 @@ public class MainActivity extends FragmentActivity {
             }
         });
     }
+
     public boolean isFinger() {
       //android studio 上，没有这个会报错
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.USE_FINGERPRINT) != PackageManager.PERMISSION_GRANTED) {
